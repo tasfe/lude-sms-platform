@@ -1,0 +1,160 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #EEF2FB;
+}
+
+#content{
+	width: 100%;
+	border: 0;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 26px;		
+}
+
+/**表格第1行样式**/
+#content .row1_left{
+	width: 17px;
+	vertical-align: top;
+	background-image: url("mail_leftbg.gif");
+}
+#content .row1_left span{
+	display: block;
+	width: 17px;
+	height: 29px;
+	background-image: url("left-top-right.gif");
+	background-repeat: no-repeat;
+}
+#content .row1_middle{
+	vertical-align: top;
+	background-image: url("content-bg.gif");
+}
+#content .row1_middle span{
+    background-image: url("top_bt.jpg");
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 26px;
+    padding-top: 5px;
+    text-indent: 15px;
+}
+#content .row1_right{
+	width: 16px;
+	vertical-align: top;
+	background-image: url("mail_rightbg.gif");
+}
+#content .row1_right span{
+	display: block;
+	width: 16px;
+	height: 29px;
+	background-image: url("nav-right-bg.gif");
+	background-repeat: no-repeat;
+}
+
+/**表格第2行样式**/
+#content .row2_left{
+	width: 17px;
+	vertical-align: top;
+	background-image: url("mail_leftbg.gif");
+}
+
+#content .row2_middle{
+	vertical-align: top;
+	background-color: #F7F8F9;
+	padding: 10px;
+}
+
+#content .row2_right{
+	width: 16px;
+	vertical-align: top;
+	background-image: url("mail_rightbg.gif");
+}
+
+/**表格第3行样式**/
+#content .row3_left{
+	width: 17px;
+	vertical-align: top;
+	background-image: url("mail_leftbg.gif");
+}
+
+#content .row3_middle{
+	background-image: url("buttom_bgs.gif");
+}
+
+#content_table .row3_right{
+	width: 16px;
+	vertical-align: top;
+	background-image: url("mail_rightbg.gif");
+}
+#content .row3_left span{
+	display: block;
+	width: 17px;
+	height: 17px;
+	background-image: url("buttom_left2.gif");
+	background-repeat: no-repeat;	
+}
+#content .row3_middle span{
+	display: block;
+	width: 17px;
+	height: 17px;
+	background-image: url("buttom_bgs.gif");
+	background-repeat: no-repeat;	
+}
+#content .row3_right span{
+	display: block;
+	width: 16px;
+	height: 17px;
+	background-image: url("buttom_right2.gif");
+	background-repeat: no-repeat;	
+}
+
+/**显示表格样式**/
+.viewtable{  
+	border-collapse: collapse;
+	border:1px solid #cad9ea; 
+	table-layout:fixed;
+	empty-cells:show;
+	font-size:12px;  
+    margin:0 auto;
+    color:#666
+}  
+
+.viewtable tbody td, .viewtable thead th{  
+    border:1px solid #cad9ea;  
+    padding:2px 1em 2px;  
+    height:20px;
+}  
+
+.viewtable thead th {  
+    background-image: url("images/th_bg1.gif");  
+    background-repeat::repeat-x;  
+    height:22px;  
+    text-align: left;
+}  
+
+.viewtable .row1{  
+    background-color:#f5fafe;  
+}
+
+.viewtable td.title{  
+    text-align: right;
+    width: 100px;
+}
+
+.viewtable td.input{  
+    text-align: left;
+}
+
+.viewtable td.submit{  
+	padding-left:120px;
+    text-align: left;
+}
+
+a.operation
+{
+	margin-left: 10px;	
+}
