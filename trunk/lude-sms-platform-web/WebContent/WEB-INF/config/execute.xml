@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<executes>
+	<req name="logout" execute="/WEB-INF/jsp/logout.jsp"/>
+	<req name="login" execute="/WEB-INF/jsp/login.jsp"/>
+	<req name="menu" execute="/WEB-INF/jsp/menu.jsp"/>
+	<req name="main" execute="/WEB-INF/jsp/main.jsp"/>
+	<req name="admin_top" execute="/WEB-INF/jsp/admin_top.jsp"/>
+	<req name="welcome" execute="/WEB-INF/jsp/welcome.jsp"/>
+	<req name="error" execute="/WEB-INF/jsp/error.jsp"/>
+	
+	<!-- 运营商页面 -->
+	<req name="agentAdd" execute="/WEB-INF/jsp/agent/agentAdd.jsp" permission="agentAdd"/>
+	<req name="agentEdit" execute="/WEB-INF/jsp/agent/agentEdit.jsp" permission="agentEdit"/>
+	<req name="agentRemove" execute="/WEB-INF/jsp/agent/agentRemove.jsp" permission="agentRemove"/>
+	<req name="agentQuery" execute="/WEB-INF/jsp/agent/agentQuery.jsp" permission="agentQuery"/>
+	
+	<!-- 渠道页面 -->
+	<req name="channelAdd" execute="/WEB-INF/jsp/channel/channelAdd.jsp" permission="channelAdd"/>
+	<req name="channelEdit" execute="/WEB-INF/jsp/channel/channelEdit.jsp" permission="channelEdit"/>
+	<req name="channelRemove" execute="/WEB-INF/jsp/channel/channelRemove.jsp" permission="channelRemove"/>
+	<req name="channelQuery" execute="/WEB-INF/jsp/channel/channelQuery.jsp" permission="channelQuery"/>
+	
+	<!-- 机构页面 -->
+	<req name="organizationAdd" execute="/WEB-INF/jsp/organization/orgAdd.jsp" permission="organizationAdd"/>
+	<req name="organizationEdit" execute="/WEB-INF/jsp/organization/orgEdit.jsp" permission="organizationEdit"/>
+	<req name="organizationRemove" execute="/WEB-INF/jsp/organization/orgRemove.jsp" permission="organizationRemove"/>
+	<req name="organizationQuery" execute="/WEB-INF/jsp/organization/orgQuery.jsp" permission="organizationQuery"/>	
+
+	<!-- 短信平台服务器页面 -->
+	<req name="smsServerAdd" execute="/WEB-INF/jsp/smsServer/serverAdd.jsp" permission="smsServerAdd"/>
+	<req name="smsServerRemove" execute="/WEB-INF/jsp/smsServer/serverRemove.jsp" permission="smsServerRemove"/>
+	<req name="smsServerQuery" execute="/WEB-INF/jsp/smsServer/serverQuery.jsp" permission="smsServerQuery"/>
+	
+		
+	<!-- 操作员页面 -->
+	<req name="operatorAdd" execute="/WEB-INF/jsp/operator/operatorAdd.jsp" permission="operatorAdd"/>
+	<req name="operatorEdit" execute="/WEB-INF/jsp/operator/operatorEdit.jsp" permission="operatorEdit"/>
+	<req name="operatorRoleEdit" execute="/WEB-INF/jsp/operator/operatorRoleEdit.jsp" permission="operatorRoleEdit"/>
+	<req name="operatorRemove" execute="/WEB-INF/jsp/operator/operatorRemove.jsp" permission="operatorRemove"/>
+	<req name="operatorQuery" execute="/WEB-INF/jsp/operator/operatorQuery.jsp" permission="operatorQuery"/>
+	
+	<!-- 操作员页面 -->
+	<req name="roleAdd" execute="/WEB-INF/jsp/role/roleAdd.jsp" permission="roleAdd"/>
+	<req name="roleEdit" execute="/WEB-INF/jsp/role/roleEdit.jsp" permission="roleEdit"/>
+	<req name="rolePermissionEdit" execute="/WEB-INF/jsp/role/rolePermissionEdit.jsp" permission="rolePermissionEdit"/>
+	<req name="roleRemove" execute="/WEB-INF/jsp/role/roleRemove.jsp" permission="roleRemove"/>
+	<req name="roleQuery" execute="/WEB-INF/jsp/role/roleQuery.jsp" permission="roleQuery"/>
+	
+	<!-- 发送短信 -->
+	<req name="simpleMt" execute="/WEB-INF/jsp/mtSender/simpleMt.jsp" permission="simpleMt"/>
+			
+	<req name="mtQuery" execute="/WEB-INF/jsp/mt/mtQuery.jsp" permission="mtQuery"/>
+	
+</executes>

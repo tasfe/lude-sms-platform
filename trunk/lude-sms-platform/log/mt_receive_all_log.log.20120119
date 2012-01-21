@@ -1,0 +1,42 @@
+[2012-01-19 09:44:25,553][Container](Container.java:102)- 实例化业务处理类：com.lude.sms.interfaces.server.mtreceive.IndbProcessor
+[2012-01-19 09:44:25,584][TextProcessor](TextProcessor.java:114)- 启动报文解释线程1
+[2012-01-19 09:44:25,584][IndbProcessor](IndbProcessor.java:232)- 启动入库线程
+[2012-01-19 09:44:25,584][TextProcessor](TextProcessor.java:114)- 启动报文解释线程2
+[2012-01-19 09:44:25,584][root](DBManager.java:63)- 1 个数据库配置被加载
+[2012-01-19 09:44:25,709][MtServer](MtServer.java:251)- 启动短信接收服务端线程
+[2012-01-19 09:44:25,725][MtServer](MtServer.java:257)- 短信接收服务端成功侦听端口：9011
+[2012-01-19 09:47:52,015][TextProcessor](FixedTextProcessor.java:64)- 接收短信报文异常
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+	at java.io.InputStreamReader.read(InputStreamReader.java:167)
+	at java.io.BufferedReader.fill(BufferedReader.java:136)
+	at java.io.BufferedReader.readLine(BufferedReader.java:299)
+	at java.io.BufferedReader.readLine(BufferedReader.java:362)
+	at com.lude.sms.interfaces.server.mtreceive.FixedTextProcessor.getMtToQueue(FixedTextProcessor.java:38)
+	at com.lude.sms.interfaces.server.TextProcessor.run(TextProcessor.java:133)
+	at java.lang.Thread.run(Thread.java:662)
+[2012-01-19 09:47:52,077][TextProcessor](TextProcessor.java:135)- 报文解释线程已成功解释完来自 /127.0.0.1 Socket的报文
+[2012-01-19 14:30:49,821][Container](Container.java:102)- 实例化业务处理类：com.lude.sms.interfaces.server.mtreceive.IndbProcessor
+[2012-01-19 14:30:49,837][TextProcessor](TextProcessor.java:114)- 启动报文解释线程1
+[2012-01-19 14:30:49,837][IndbProcessor](IndbProcessor.java:232)- 启动入库线程
+[2012-01-19 14:30:49,837][TextProcessor](TextProcessor.java:114)- 启动报文解释线程2
+[2012-01-19 14:30:49,837][root](DBManager.java:63)- 1 个数据库配置被加载
+[2012-01-19 14:30:49,977][MtServer](MtServer.java:251)- 启动短信接收服务端线程
+[2012-01-19 14:30:49,977][MtServer](MtServer.java:257)- 短信接收服务端成功侦听端口：9011
+[2012-01-19 14:31:29,432][TextProcessor](FixedTextProcessor.java:64)- 接收短信报文异常
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)
+	at java.io.InputStreamReader.read(InputStreamReader.java:167)
+	at java.io.BufferedReader.fill(BufferedReader.java:136)
+	at java.io.BufferedReader.readLine(BufferedReader.java:299)
+	at java.io.BufferedReader.readLine(BufferedReader.java:362)
+	at com.lude.sms.interfaces.server.mtreceive.FixedTextProcessor.getMtToQueue(FixedTextProcessor.java:38)
+	at com.lude.sms.interfaces.server.TextProcessor.run(TextProcessor.java:133)
+	at java.lang.Thread.run(Thread.java:662)
+[2012-01-19 14:31:29,432][TextProcessor](TextProcessor.java:135)- 报文解释线程已成功解释完来自 /127.0.0.1 Socket的报文
